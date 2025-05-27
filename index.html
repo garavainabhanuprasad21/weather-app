@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="search">
+      <input type="text" id="search" placeholder="Enter city name" />
+      <button><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="weather-info hidden">
+      <div class="temp">
+        <img src="images/clear.png" alt="Weather Icon" />
+        <div>
+          <h1>24°C</h1>
+          <h2>Hyderabad</h2>
+          <h2>05 Apr 2025</h2>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="humidity-info">
+          <img src="images/humidity.png" alt="Humidity Icon" />
+          <div class="humidity">50%<br />Humidity</div>
+        </div>
+        <div class="wind-info">
+          <img src="images/wind.png" alt="Wind Icon" />
+          <div class="wind">35 km/h<br />Wind Speed</div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="weekly-forecast">
+        <!-- Forecast will be filled via JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
