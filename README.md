@@ -22,7 +22,7 @@
 ---
 
 ## 🎯 Live Demo:
-[View Live Demo](#)  
+[View Live Demo](https://garavainabhanuprasad21.github.io/weather-app/)  
 
 ---
 
