@@ -117,13 +117,13 @@ function getWeatherFromWeatherAPI(city) {
 
 // Weather icon logic
 function updateWeatherIcon(condition) {
-  let iconPath = "images/clear.png";
-  if (condition.includes("cloud")) iconPath = "images/clouds.png";
-  else if (condition.includes("rain")) iconPath = "images/rain.png";
-  else if (condition.includes("drizzle")) iconPath = "images/drizzle.png";
-  else if (condition.includes("mist")) iconPath = "images/mist.png";
-  else if (condition.includes("snow")) iconPath = "images/snow.png";
-  else if (condition.includes("clear")) iconPath = "images/clear.png";
+  let iconPath = "clear.png";
+  if (condition.includes("cloud")) iconPath = "clouds.png";
+  else if (condition.includes("rain")) iconPath = "rain.png";
+  else if (condition.includes("drizzle")) iconPath = "drizzle.png";
+  else if (condition.includes("mist")) iconPath = "mist.png";
+  else if (condition.includes("snow")) iconPath = "snow.png";
+  else if (condition.includes("clear")) iconPath = "clear.png";
 
   weatherIcon.src = iconPath;
 }
